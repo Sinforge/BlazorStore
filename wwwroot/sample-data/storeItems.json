@@ -1,0 +1,29 @@
+[
+    {
+        "id" : 1,
+        "img" : "pubg1.png",
+        "name": "PUBG",
+        "price": "99.99",
+        "shortDescription" : "PUBG is an online multiplayer battle royale game where players fight on a massive island to be the last survivor by gathering weapons and resources",
+        "description" : "PUBG is an innovative online multiplayer battle royale game developed within the genre by PUBG Corporation. Players are immersed in intense battles taking place across vast islands, with each engagement offering unique experiences.\n The game begins when players choose their landing spot on the map and start searching for weapons, armor, and other essential items. As the safe zone shrinks over time, forcing players closer together, strategic decisions become crucial. PUBG provides multiple gameplay modes such as solo, duo, and squad play, along with diverse maps and game modes that cater to different player preferences. A broad selection of firearms and vehicles allows players to adapt their strategies according to the situation at hand. With its dynamic pace, realism, and competitive nature, PUBG has amassed millions of fans worldwide. It also plays a significant role in esports, hosting numerous tournaments and championships that highlight its importance in the world of computer gaming"
+
+    },
+    {
+        "id" : 2,
+        "img" : "fortnite.png",
+        "name": "Fortnite",
+        "price": "0",
+        "shortDescription" : "Fortnite is a popular online multiplayer battle royale game where players compete to be the last one standing on a constantly shrinking island.",
+        "description" : "Fortnite is an engaging online multiplayer battle royale game developed by Epic Games. Players are dropped onto an island where they must scavenge for weapons, resources, and materials to build structures for defense and offense. The game's unique building mechanics set it apart from other titles in the genre. Players can choose from various modes like solo, duo, and squad play, each offering different challenges and strategies. The game's vibrant art style, frequent updates, and seasonal events keep players engaged and coming back for more. Fortnite's blend of shooting mechanics, building elements, and fast-paced gameplay has made it a cultural phenomenon with a massive player base worldwide. It has also become a prominent title in the esports scene, hosting competitive events that showcase top-tier gameplay and strategies."
+
+    },
+    {
+        "id" : 3, 
+        "img" : "cs2.jpg",
+        "name": "CS2",
+        "price": "50.00",
+        "shortDescription" : "Counter-Strike 2 is a free upgrade to CS:GO, offering players the chance to enhance their loadout, refine their skills, and prepare for new challenges.",
+        "description" : "Counter-Strike 2 represents the next chapter in the iconic Counter-Strike series, known for its elite competitive gameplay that has captivated millions of players worldwide. This free upgrade to CS:GO introduces new features, enhanced gameplay mechanics, and exciting content to keep players engaged and immersed in the world of Counter-Strike. With over two decades of history, Counter-Strike has established itself as a premier first-person shooter game, shaping the esports landscape and captivating a dedicated community of players. Counter-Strike 2 continues this tradition by offering an elevated gaming experience that combines skill-based gameplay with strategic depth, making it a compelling choice for both casual and competitive gamers alike."
+
+    }
+]

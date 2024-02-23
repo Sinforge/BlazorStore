@@ -1,0 +1,24 @@
+@page "/"
+@inject HttpClient Http
+@using BlazorApp.Pages.Home.ItemsContainer;
+
+<PageTitle>Главная страница магазина игр</PageTitle>
+
+<h1>Welcome</h1>
+@if (storeItems == null) {
+        <p><em>Loading...</em></p>
+}
+else{
+    <ItemsContainer items="@storeItems"/>
+}
+
+
+@code {
+    private StoreItem[] storeItems;
+
+    protected override async Task OnInitializedAsync()
+    {
+        storeItems = await Http.GetFromJsonAsync<StoreItem[]>("sample-data/storeItems.json");
+
+    }
+}

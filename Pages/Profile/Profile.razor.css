@@ -1,0 +1,76 @@
+.user-card {
+    width: 80vw;
+    max-width: 500px;
+    margin: 2rem auto;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.user-card img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    transition: transform 0.3s ease;
+}
+
+.user-card img:hover {
+    transform: scale(1.1);
+}
+
+.user-card h1 {
+    font-weight: bold;
+    font-size: 2em;
+    margin: 1rem 0;
+}
+
+.user-card p {
+    font-size: 1.2em;
+    margin: 0.5rem 0;
+}
+
+.status,
+.location,
+.about,
+.contacts,
+.social-links {
+    margin-top: 10px;
+    font-size: 1.2em; /* Добавляем размер шрифта, соответствующий другим текстовым элементам */
+}
+
+.status span,
+.location span,
+.about span {
+    font-weight: bold;
+}
+
+.contacts li {
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Центрируем элементы внутри блока */
+}
+
+.social-links li {
+    margin-right: 10px;
+}
+
+.social-links a {
+    color: #333;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    color: #007bff;
+}

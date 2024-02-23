@@ -1,0 +1,24 @@
+@inject NavigationManager NavigationManager
+<div @onclick="RedirectToItemPage" class="item">
+    <img src="@Img"/>
+    <h1>@Name</h1>
+    <p><bold>@Price $</bold></p>
+    <p>@Description</p>
+</div>
+
+@code {
+    [Parameter]
+    public int Id {get; set;}
+    [Parameter]
+    public string? Img {get; set;}
+    [Parameter]
+    public string? Name {get; set;}
+    [Parameter]
+    public float Price {get; set;}
+    [Parameter]
+    public string? Description {get; set;}
+
+    void RedirectToItemPage() {
+        NavigationManager.NavigateTo($"/items/{Id}");
+    }
+}

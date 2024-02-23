@@ -1,0 +1,38 @@
+
+
+.item[b-e1kiv0r9uu] {
+    width: 80vw;
+    max-width: 500px;
+    margin: 2rem auto;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.item img[b-e1kiv0r9uu] {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    transition: transform 0.3s ease;
+}
+
+.item img:hover[b-e1kiv0r9uu] {
+    transform: scale(1.1);
+}
+
+.item h1[b-e1kiv0r9uu] {
+    font-weight: bold;
+    font-size: 2em;
+    margin: 1rem 0;
+}
+
+.item p[b-e1kiv0r9uu] {
+    font-size: 1.2em;
+    margin: 0.5rem 0;
+}

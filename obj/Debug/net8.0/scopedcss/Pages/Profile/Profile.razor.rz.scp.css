@@ -1,0 +1,76 @@
+.user-card[b-mi831sfloy] {
+    width: 80vw;
+    max-width: 500px;
+    margin: 2rem auto;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.user-card img[b-mi831sfloy] {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    transition: transform 0.3s ease;
+}
+
+.user-card img:hover[b-mi831sfloy] {
+    transform: scale(1.1);
+}
+
+.user-card h1[b-mi831sfloy] {
+    font-weight: bold;
+    font-size: 2em;
+    margin: 1rem 0;
+}
+
+.user-card p[b-mi831sfloy] {
+    font-size: 1.2em;
+    margin: 0.5rem 0;
+}
+
+.status[b-mi831sfloy],
+.location[b-mi831sfloy],
+.about[b-mi831sfloy],
+.contacts[b-mi831sfloy],
+.social-links[b-mi831sfloy] {
+    margin-top: 10px;
+    font-size: 1.2em; /* Добавляем размер шрифта, соответствующий другим текстовым элементам */
+}
+
+.status span[b-mi831sfloy],
+.location span[b-mi831sfloy],
+.about span[b-mi831sfloy] {
+    font-weight: bold;
+}
+
+.contacts li[b-mi831sfloy] {
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+.social-links[b-mi831sfloy] {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Центрируем элементы внутри блока */
+}
+
+.social-links li[b-mi831sfloy] {
+    margin-right: 10px;
+}
+
+.social-links a[b-mi831sfloy] {
+    color: #333;
+    text-decoration: none;
+}
+
+.social-links a:hover[b-mi831sfloy] {
+    color: #007bff;
+}

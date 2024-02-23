@@ -1,0 +1,13 @@
+@using BlazorApp.Pages.Home.ItemsContainer.Item;
+<div class="items-container">
+    @foreach(var item in items)
+    {
+        <Item Id="@item.Id" Img="@item.Img" Name="@item.Name" Price="@item.Price" Description="@item.ShortDescription"/>
+    }
+</div>
+
+@code {
+    [Parameter]
+    public StoreItem[] items {get; set;}  
+
+}

@@ -1,0 +1,36 @@
+@page "/items/{Id:int}"
+@inject HttpClient Http
+@inject NavigationManager NavigationManager
+
+@if(storeItem == null) {
+    <p><em>Loading...</em></p>
+}
+else{
+    <div class="container">
+        <img src="@storeItem.Img" alt="@storeItem.Name">
+        <h1>@storeItem.Name</h1>
+        <h2>@storeItem.Price $</h2>
+        <hr>
+        <p><strong>Description:</strong></p>
+        <p>@storeItem.Description</p>
+        <hr>
+        <button style="padding: 10px 20px; background-color: #007bff; color: #fff; border: none; border-radius: 5px; cursor: pointer;">Add to Cart</button>
+    </div>
+}
+
+
+@code{
+    [Parameter]
+    public int Id {get; set;}
+
+    private StoreItem? storeItem;
+
+    protected override async Task OnInitializedAsync()
+    {
+        storeItem = (await Http.GetFromJsonAsync<StoreItem[]>("sample-data/storeItems.json"))
+            .FirstOrDefault(x => x.Id == Id);
+        if(storeItem == null) {
+            NavigationManager.NavigateTo("not-found");
+        }
+    }
+}
